@@ -25,14 +25,14 @@ user.loginCreds = async (req, res) => {
                 if (data.Items[0].contrasena === contra) {
                     res.status(200).send(data.Items[0])
                 } else {
-                    res.status(406).send({message: "Contraseña Incorrecta"})
+                    res.status(200).send({message: "Contraseña Incorrecta"})
                 }
             }else{
-                res.status(404).send({message: "Usuario no existe"})
+                res.status(200).send({message: "Usuario no existe"})
             }
         } else {
             console.log(err)
-            res.status(404).send({message:'Usuario No Existe'})
+            res.status(500).send({message:'No se pudo consultar el usuario.'})
         }
     })
 }
