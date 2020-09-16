@@ -11,6 +11,8 @@ const user = {}
 user.registrer = async (req, res) => {
     let contrasena = req.body.contrasena
     let nombre = req.body.nombre
+    let nameImage = ''
+
 
     if(req.body.foto != '') {
         nameImage = uploadImage(req.body, res, "user")
@@ -24,6 +26,8 @@ user.registrer = async (req, res) => {
             "foto": nameImage
         }
     }
+
+    console.log(params)
     await client.put(params, function (err, data){
         if (err) {
             res.status(500).send({
