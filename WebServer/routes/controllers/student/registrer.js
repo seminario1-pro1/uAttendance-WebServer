@@ -21,7 +21,7 @@ student.registrer = async (req, res) => {
             "foto": nameImage,
             "base64": req.body.base64,
             "tipo": req.body.tipo,
-            "url": 'https://uattendance-photos.s3.us-east-2.amazonaws.com/estudiantes/'+nameImage
+            "url": 'https://pro1-images-grupo16.s3.us-east-2.amazonaws.com/estudiantes/'+nameImage
         }
     }
 

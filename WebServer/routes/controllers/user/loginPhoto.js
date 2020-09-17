@@ -17,13 +17,13 @@ user.loginPhoto = async (req, res) => {
         SimilarityThreshold: 50,
         SourceImage: {
             S3Object:{
-                Bucket: 'uattendance-photos',
+                Bucket: 'pro1-images-grupo16',
                 Name: 'login/'+ nameImageSource
             }
         },
         TargetImage: {
             S3Object: {
-                Bucket: 'uattendance-photos',
+                Bucket: 'pro1-images-grupo16',
                 Name: 'usuarios/'+nameImageSource
             }
         }

@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bae89695-65ad-41b2-865f-48dfd0fab0c6" name="Default Changelist" comment="feat: login" />
+    <list default="true" id="bae89695-65ad-41b2-865f-48dfd0fab0c6" name="Default Changelist" comment="feat: login">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/controllers/student/registrer.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/controllers/student/registrer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/controllers/user/loginPhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/controllers/user/loginPhoto.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,6 +69,7 @@
       <workItem from="1600214815073" duration="1888000" />
       <workItem from="1600217079407" duration="1040000" />
       <workItem from="1600240430824" duration="154000" />
+      <workItem from="1600360983285" duration="266000" />
     </task>
     <task id="LOCAL-00001" summary="feat: login">
       <created>1599932628679</created>
@@ -107,6 +113,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="741" y="429" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.45.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1600126849558" />
+    <state x="684" y="299" width="678" height="566" key="find.popup" timestamp="1600361248811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="684" y="299" width="678" height="566" key="find.popup/1920.45.1280.984/0.0.1920.1040@0.0.1920.1040" timestamp="1600361248811" />
     <state x="989" y="244" key="run.anything.popup" timestamp="1600111774736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
