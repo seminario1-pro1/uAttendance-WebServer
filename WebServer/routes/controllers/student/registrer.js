@@ -21,7 +21,8 @@ student.registrer = async (req, res) => {
             "nombre": req.body.nombre,
             "foto": nameImage,
             "base64": req.body.base64,
-            "tipo": req.body.tipo
+            "tipo": req.body.tipo,
+            "url": 'uattendance-photos.s3.us-east-2.amazonaws.com/usuarios/'+nameImage
         }
     }
 
@@ -32,7 +33,7 @@ student.registrer = async (req, res) => {
                 message: err
             });
         } else {
-            res.status(200).send(data);
+            res.status(200).send({message: 'true'});
         }
     })
 }
