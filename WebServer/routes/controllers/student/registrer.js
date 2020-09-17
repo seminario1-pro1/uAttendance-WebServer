@@ -11,7 +11,6 @@ const student = {}
 
 /*POST registrer students*/
 student.registrer = async (req, res) => {
-
     //carga de imagen a s3
     nameImage = uploadImagenStudent(req.body, res, "student")
 
@@ -22,7 +21,7 @@ student.registrer = async (req, res) => {
             "foto": nameImage,
             "base64": req.body.base64,
             "tipo": req.body.tipo,
-            "url": 'uattendance-photos.s3.us-east-2.amazonaws.com/estudiantes/'+nameImage
+            "url": 'https://uattendance-photos.s3.us-east-2.amazonaws.com/estudiantes/'+nameImage
         }
     }
 
