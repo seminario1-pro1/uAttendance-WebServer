@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4ad749f6-29f1-4f96-8358-309680d10622" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebServer/routes/controllers/user/registrer.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer/routes/controllers/user/registrer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebServer/routes/controllers/student/registrer.js" beforeDir="false" afterPath="$PROJECT_DIR$/WebServer/routes/controllers/student/registrer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600284619165</updated>
-      <workItem from="1600284620313" duration="4366000" />
+      <workItem from="1600284620313" duration="8939000" />
     </task>
     <servers />
   </component>

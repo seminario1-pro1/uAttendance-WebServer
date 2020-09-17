@@ -19,7 +19,9 @@ student.registrer = async (req, res) => {
         TableName: 'tabla-estudiante-semi1-pro1',
         Item: {
             "nombre": req.body.nombre,
-            "foto": nameImage
+            "foto": nameImage,
+            "base64": req.body.base64,
+            "tipo": req.body.tipo
         }
     }
 
